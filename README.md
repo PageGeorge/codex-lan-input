@@ -45,9 +45,9 @@ http://0.0.0.0:8765
 6. 点击`发送`把文本粘贴到 Codex。
 7. 需要单独确认或提交时，点击`回车`发送一次 `Enter`。
 
-![本项目使用 Codex 完成](worktime.jpg)
+## 本项目使用 Codex 完成
 
-*本项目使用 Codex 完成*
+![本项目使用 Codex 完成](worktime.jpg)
 
 ## 接口
 
