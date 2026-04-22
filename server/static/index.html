@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Codex LAN 输入</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="panel">
+        <p class="eyebrow">LAN Input</p>
+        <h1>Codex 远程输入</h1>
+        <p class="description">
+          用手机自带语音输入法把文字整理好，再发送到当前聚焦的 Codex 输入框。
+        </p>
+
+        <label class="field-label" for="text-input">要发送的文本</label>
+        <textarea
+          id="text-input"
+          rows="8"
+          placeholder="在这里使用手机语音输入法输入内容"
+          autofocus
+        ></textarea>
+
+        <div class="button-row">
+          <button id="send-button" class="primary-button" type="button">发送</button>
+          <button id="enter-button" class="secondary-button" type="button">回车</button>
+        </div>
+
+        <p id="status" class="status status-idle" aria-live="polite">
+          等待操作
+        </p>
+      </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>
